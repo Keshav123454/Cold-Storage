@@ -1,0 +1,55 @@
+.maap:hover{
+    box-shadow: 13px 13px 0px -4px rgba(0, 0, 0, 0.596);
+    -webkit-box-shadow: 13px 13px 0px -4px rgba(0,0,0,0.596);
+    -moz-box-shadow: 13px 13px 0px -4px rgba(0,0,0,0.596);
+}
+
+.io{padding-left:20px;
+    padding-right:20px;
+    padding-top: 20px; 
+    padding-bottom: 20px;}
+
+.mop:hover{box-shadow: -3px 3px 54px -4px rgba(0,0,0,0.75);
+    -webkit-box-shadow: -3px 3px 54px -4px rgba(0,0,0,0.75);
+    -moz-box-shadow: -3px 3px 54px -4px rgba(0,0,0,0.75);}
+
+.rad{
+    border-radius:200px;
+}
+
+.lk{
+    background-color: rgba(0, 0, 0, 0.2);
+}
+
+.input {
+    margin: 2rem auto;
+    padding: 1rem;
+    width: 90%;
+    max-width: 40rem;
+  }
+  
+  .input label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 0.5rem;
+  }
+  
+  .input input {
+    font: inherit;
+    display: block;
+    width: 100%;
+    border: 1px solid #ccc;
+    padding: 0.15rem;
+    margin-bottom: 0.5rem;
+  }
+  
+  .input input:focus {
+    outline: none;
+    border-color: #4f005f;
+  }
+
+  .card{
+    background: white;
+    box-shadow:2px 8px rgba(0,0,0,0.26);
+    border-radius: 10px;
+  }
