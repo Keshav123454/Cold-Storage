@@ -3,7 +3,7 @@ import Card from './Card';
 
 const AddContact = (props) =>{
     return(
-        <Card>
+        <div>
             <ul>
                 {props.users.map((user) => (
                     <li>
@@ -13,7 +13,7 @@ const AddContact = (props) =>{
             </ul>
 
 
-        </Card>
+        </div>
         )
 }
             
