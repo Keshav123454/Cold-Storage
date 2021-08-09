@@ -10,6 +10,7 @@ const Contactus = () => {
     const handelIssueReq = (event) =>{
         event.preventDefault();
         if(cust.trim().length===0 || issue.trim().length===0){
+            alert("Please fill properly");
             return;
         }
         addUserHandler(cust,issue);
